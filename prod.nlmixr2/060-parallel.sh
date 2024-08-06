@@ -1,2 +1,2 @@
 #!/bin/bash
-Rscript -e "pak::pak(c('foreach', 'doParallel'))"
+Rscript -e "pak::pak(c('parallel', 'optimParallel'))"
